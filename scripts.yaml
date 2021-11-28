@@ -1,0 +1,24 @@
+allow:
+  - net
+  - read
+  - write
+  - env
+
+env:
+  PORT: 3000
+  DB_HOST: localhost
+  DB_PORT: 3306
+  DB_USER: root
+  DB_PASS: 1234
+  DB_NAME: test
+
+scripts:
+  dev:
+    cmd: deno run index.ts
+    imap: import_map.json
+    watch: true
+    
+  start:
+    cmd: deno run index.ts
+    imap: import_map.json
+    watch: false
