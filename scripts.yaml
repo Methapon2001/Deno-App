@@ -15,10 +15,10 @@ env:
 scripts:
   dev:
     cmd: deno run index.ts
-    imap: import_map.json
+    importMap: import_map.json
     watch: true
     
   start:
     cmd: deno run index.ts
-    imap: import_map.json
+    importMap: import_map.json
     watch: false
