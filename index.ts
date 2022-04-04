@@ -1,3 +1,4 @@
+import "dotenv-load";
 import { Application, Router } from "oak";
 
 const app = new Application();
