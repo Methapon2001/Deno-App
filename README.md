@@ -1,5 +1,4 @@
 # Deno App
-
 Creating your own REST API with deno and oak.
 
 ## Prerequisite
